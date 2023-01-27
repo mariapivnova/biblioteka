@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.Gardy">
+    <children>
+        <ImageView fx:id="imagine" fitHeight="400.0" fitWidth="206.0" layoutX="375.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@gardy.jpg" />
+            </image>
+        </ImageView>
+        <Text fx:id="text1" layoutX="161.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Гардемарины, вперёд!">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <Text fx:id="text2" layoutX="14.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Сюжет картины переносит зрителей во времена дворцовых переворотов. Тогда в беспощадной борьбе за власть возносились и гибли целые династии, ломались судьбы временщиков, цареубийцы восходили на трон.Трое молодых курсантов навигацкой школы, основанной Петром в Москве, по разным причинам убегают: кто — в Петербург, кто — в Кронштадт. Невольно они становятся соучастниками заговора, организованного против молодой Императрицы." wrappingWidth="362.5507507324219">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Text>
+        <Text fx:id="text3" layoutX="14.0" layoutY="348.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Стоимость:  1899 руб.">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Text>
+        <Text fx:id="text4" layoutX="14.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Где можно купить: сеть магазинов читай-город">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Text>
+        <Button fx:id="button" layoutX="450.0" layoutY="343.0" mnemonicParsing="false" text="Вернуться к разделу" />
+      <Button fx:id="ost" layoutX="320.0" layoutY="309.0" mnemonicParsing="false" text="Оставить заявку" />
+    </children>
+</Pane>

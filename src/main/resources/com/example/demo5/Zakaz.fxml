@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.Zakaz">
+   <children>
+      <Text fx:id="text2" layoutX="153.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Благодарим за оставленную заявку">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Text fx:id="text1" layoutX="170.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вам скоро перезвонят по указанному номеру">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

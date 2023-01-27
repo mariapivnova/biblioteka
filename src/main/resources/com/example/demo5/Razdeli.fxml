@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.Razdeli">
+   <children>
+      <Text fx:id="text1" layoutX="206.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберете раздел">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="one" layoutX="78.0" layoutY="159.0" mnemonicParsing="false" text="Фэнтези" />
+      <Button fx:id="two" layoutX="472.0" layoutY="147.0" mnemonicParsing="false" text="Романы" />
+      <Button fx:id="three" layoutX="61.0" layoutY="339.0" mnemonicParsing="false" text="Приключения" />
+      <Button fx:id="fore" layoutX="475.0" layoutY="327.0" mnemonicParsing="false" text="Драма" />
+      <ImageView fx:id="imagine1" fitHeight="144.0" fitWidth="188.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@one.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagine3" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@two.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagine2" fitHeight="150.0" fitWidth="200.0" layoutX="394.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@three.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagine4" fitHeight="150.0" fitWidth="200.0" layoutX="394.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@fore.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
